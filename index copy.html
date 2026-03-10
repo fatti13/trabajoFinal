@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Práctica Sass - Php</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header id="header">
+        <div class="navTop">
+           <div class="container">
+                <p>¿Tienes alguna pregunta?</p>
+
+                <div>
+                    <a href="tel:+34958343434">
+                        <i class="bi bi-telephone"></i>
+                            958 34 34 34
+                    </a>
+                </div>
+
+                <div>
+                    <a href="contacto.php">
+                        <i class="bi bi-envelope"></i>
+                        info@escuelaartegranada.com
+                    </a>
+                </div>
+
+                <div>
+                    <a href="login.php">
+                        <i class="bi bi-person-fill"></i>
+                    </a>
+                </div>
+
+           </div>
+        </div>
+
+
+        <nav class="navbar navbar-expand-lg container">
+            <div class="container-fluid">
+
+              <a class="navbar-brand" href="index.php">E-<span>WEB</span></a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="menu">
+
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Escuela</a>
+                    <a class="nav-link" href="#">Cursos</a>
+                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link" href="#">Contacto</a>
+                    <div class="buscador">
+                        <!-- <input type="search" placeholder="Buscar curso"> lo haremos con js-->
+                        <i class="bi bi-search"></i>
+                    </div>
+                </div> 
+              </div>
+
+            </div>
+          </nav>
+    </header>
+
+    <main id="index">
+        <section id="banner">
+            <h1>Cursos online</h1>
+            <h2>HTML5 - CSS3 - PHP -JAVASCRIPT- WORDPRESS - PRESTASHOP</h2>
+            <a href="cursos.php">Más información</a>
+        </section>
+
+        <section id="plataforma">
+            <div class="bienvenido">
+                <h4>Bienvenido a la plataforma E-Web</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae qui assumenda nobis tempora, ad distinctio ex. Beatae saepe architecto doloribus.</p>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="img/icon_1.png" alt="">
+                        <h3>Expertos</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, voluptatum.</p>
+                    </div>
+
+                    <div class="col-md-3">
+                        <img src="img/icon_2.png" alt="">
+                        <h3>Recursos</h3>
+                        <p>Labore cum iure tempore culpa iste amet aperiam explicabo quibusdam.</p>
+                    </div>
+
+                    <div class="col-md-3">
+                        <img src="img/icon_3.png" alt="">
+                        <h3>Cursos</h3>
+                        <p>Reprehenderit blanditiis, provident tempora soluta architecto sint natus omnis saepe!</p>
+                    </div>
+
+                    <div class="col-md-3 my-md-4">
+                        <img src="img/icon_4.png" alt="">
+                        <h3>Premios</h3>
+                        <p>Vitae iusto molestias dolor natus voluptatibus animi sint illo hic.</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="cursos">
+        <div class="container">
+            <h2>Cursos Online</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi distinctio quasi aperiam dolores, similique pariatur tenetur voluptatum modi mollitia voluptates, eligendi laudantium? Laborum, impedit ad.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="sombra">
+                        <img src="img/curso1.jpg" alt="">
+                    <h3>texto</h3>
+                    <h4>redu</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, aperiam?</p>
+                    <hr>
+                    <div class="estudent"><i class="bi bi-mortarboard-fill"></i><span>20 estudiantes</span><span>130$</span></div></div>
+                    </div>
+                <div class="col-md-4">
+                    <div class="sombra">
+                        <img src="img/curso2.jpg" alt="">
+                    <h3>texto</h3>
+                    <h4>redu</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, aperiam?</p>
+                    <hr>
+                    <div class="estudent"><i class="bi bi-mortarboard-fill"></i><span>20 estudiantes</span><span>130$</span></div></div>
+                    </div>
+                <div class="col-md-4">
+                    <div class="sombra">
+                        <img src="img/curso3.jpg" alt="">
+                    <h3>texto</h3>
+                    <h4>redu</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, aperiam?</p>
+                    <hr>
+                    <div class="estudent"><i class="bi bi-mortarboard-fill"></i><span>20 estudiantes</span><span>130$</span></div></div>
+                    </div>
+            </div>
+            
+        </div>
+        <a href="#">Ver Todos Los Cursos</a>
+        </section>
+        <section id="noticias" class="container">
+            <h2>Noticias</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur ut eius consequatur, distinctio impedit inventore tempora eveniet quidem harum tenetur pariatur, saepe vitae iste praesentium.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="" alt="">
+                    <div class="news">
+                        <time>21Feb</time>
+                        <div>
+                            <h4>Insercion Laboral</h4>
+                            <i class="icon"></i>
+                            <time>15:00-19:30</time>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, aperiam quibusdam maxime sequi quia dolore omnis dolorem numquam doloremque obcaecati animi enim a odio ullam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="" alt="">
+                    <div class="news">
+                        <time>21Feb</time>
+                        <div>
+                            <h4>Insercion Laboral</h4>
+                            <i class="icon"></i>
+                            <time>15:00-19:30</time>
+                            <p>Nesciunt facere perspiciatis fugit nostrum! Magnam aperiam, blanditiis, nemo saepe provident commodi pariatur molestiae obcaecati modi dolore repudiandae maxime quia unde quis tempore porro rerum?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="" alt="">
+                    <div class="news">
+                        <time>21Feb</time>
+                        <div>
+                            <h4>Insercion Laboral</h4>
+                            <i class="icon"></i>
+                            <time>15:00-19:30</time>
+                            <p>Dolores hic autem deleniti quaerat, nostrum dolore reprehenderit possimus pariatur placeat ratione repellat dolorum cumque obcaecati eum explicabo ullam modi aliquam omnis, nihil ipsa rem.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#">Suscribir</a>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="">E-WEB</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex esse a in doloremque? Est, nisi veritatis corporis neque voluptas illo ratione inventore atque natus laboriosam.</p>
+                    <div class="social"><a href=""><i class="icon"></i></a><a href=""><i class="icon"></i></a><a href=""><i class="icon"></i></a><a href=""><i class="icon"></i></a></div>
+                </div>
+                <div class="col-md-4">
+                    <h4>Contactar</h4>
+                        <a href="contacto.php">info@info.com</a>
+                        <a href="tel:958121212">958 121 212</a>
+                        <address>Av. Doctor Oloriz</address>
+                </div>
+                <div class="col-md-4">
+                    <h4>Cursos</h4>
+                    <div class="row">
+                        <ul>
+                            <li>item</li>
+                            <li>item</li>
+                            <li>item</li>
+                            <li>item</li>
+                        </ul>
+                        <ul>
+                            <li>item</li>
+                            <li>item</li>
+                            <li>item</li>
+                            <li>item</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div><small>Copyright &copy; 2023 Todos los derechos reservados</small></div>
+        </div>
+    </footer>
+
+<script src="bootstrap/js/bootstrap.min.js"></script>  
+</body>
+</html>  
